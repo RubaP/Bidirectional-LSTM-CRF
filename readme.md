@@ -1,3 +1,6 @@
 # Bidirectional LSTM-CRF for Named Entity Recognition
 
 Named Entity Recognition (NER) is a challenging sequence labeling task which requires a deep understanding of the orthographic and distributional representation of words. In this paper, we propose a novel neural architecture that benefits from word and character level information and dependencies across adjacent labels. This model includes bidirectional LSTM (BI-LSTM) with a bidirectional Conditional Random Field (BI-CRF) layer. Our work is the first to experiment BI-CRF in neural architectures for sequence labeling task. We show that CRF can be extended to capture the dependencies between labels in both right and left directions of the sequence. This variation of CRF is referred to as BI-CRF and our results show that BI-CRF improves the performance of the NER model compare to an unidirectional CRF and backward CRF is capable of capturing most difficult entities compare to the forward CRF. Our system is competitive on the CoNLL-2003 dataset for English and outperforms most of the existing approaches which do not use any external labeled data.
+
+Link:
+https://www.researchgate.net/publication/333384813_Bidirectional_LSTM-CRF_for_Named_Entity_Recognition
