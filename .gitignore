@@ -1,0 +1,5 @@
+embedding/*.txt
+venv/
+.idea/
+*/__pycache__/
+embedding/*.bin
